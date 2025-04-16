@@ -27,7 +27,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 # Define message handler
-async def handle_question(update: Update, context: C ontextTypes.DEFAULT_TYPE):
+async def handle_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     question = update.message.text.lower()
     answer = qa_dict.get(question, "Sorry, I don't have an answer to that question yet.")
     await update.message.reply_text(answer)
