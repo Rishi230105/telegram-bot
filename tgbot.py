@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1P8x1wpBbsSCP2mADc1IBuh1SzojNh9zh
 """
 
-pip install python-telegram-bot
-
 import asyncio
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
